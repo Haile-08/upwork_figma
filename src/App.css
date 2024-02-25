@@ -61,6 +61,7 @@
 .home-main .home-nav .home-nav-info .home-nav-info-left p {
   font-size: 2dvh;
   margin-right: 3dvw;
+  cursor: pointer;
 }
 
 
@@ -80,6 +81,7 @@
   background-color: #ed1589;
   color: #fff;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .home-main .home-nav .home-nav-options {
