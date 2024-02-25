@@ -1,0 +1,120 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-main {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.home-main .home-nav {
+  width: 100dvw;
+  height: 15dvh;
+  background-color: yellow;
+}
+
+.home-main .home-nav .sales-off {
+  width: 100dvw;
+  height: 4dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #42a552;
+}
+
+.home-main .home-nav .sales-off p{
+  color: #fff;
+}
+
+.home-main .home-nav .home-nav-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-main .home-nav .home-nav-info {
+  height: 15dvh;
+  width: 80dvw;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.home-main .home-nav .home-nav-info .home-nav-info-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 3dvw;
+}
+
+.home-main .home-nav .home-nav-info .home-nav-info-left img {
+  margin-right: 3dvw;
+}
+
+.home-main .home-nav .home-nav-info .home-nav-info-left p {
+  font-size: 2dvh;
+  margin-right: 3dvw;
+}
+
+
+.home-main .home-nav .home-nav-info .home-nav-info-right {
+  width: 30dvw;
+  height: 15dvh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.home-main .home-nav .home-nav-info .home-nav-info-right button {
+  width: 10dvw;
+  height: 5dvh;
+  outline: none;
+  border: none;
+  background-color: #ed1589;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.home-main .home-nav .home-nav-options {
+  height: 15dvh;
+  width: 14dvw;
+  padding: 0px 3dvw;
+  font-size: 3.5dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-left: solid;
+}
+
+.home-main .home-body {
+  margin-top: 5dvh;
+  height: 80dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-main .home-body .text {
+  width: 40dvw;
+  height: 60dvh;
+}
+
+.home-main .home-body .text h2 {
+  font-size: 5dvh;
+}
+
+.home-main .home-body p {
+  width: 20dvw;
+}
+
+.home-main .home-body .light {
+
+}
